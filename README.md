@@ -3,7 +3,8 @@
 
 ## Chinese-MobileBERT
 > convert tensorflow checkpoint to pytorch.
-> origin checkpoint from https://github.com/ymcui/Chinese-MobileBERT
+
+> The origin checkpoint from https://github.com/ymcui/Chinese-MobileBERT
 
 ### model card
 
@@ -14,7 +15,7 @@ With [Huggingface-Transformers](https://github.com/huggingface/transformers), th
 tokenizer = MobileBertTokenizer.from_pretrained("MODEL_NAME")
 model = MobileBertModel.from_pretrained("MODEL_NAME")
 ```
-**Notice: Please use BertTokenizer and BertModel for loading these model. DO NOT use RobertaTokenizer/RobertaModel!**
+**Notice: Please use MobileBertTokenizer and MobileBertModel for loading these model. **
 
 The actual model and its `MODEL_NAME` are listed below.
 
